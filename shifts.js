@@ -1,4 +1,5 @@
 function calculatePay(hours, rate) {
+  // Feature logic - bandico.juliarose
   if (hours <= 8) {
     return Math.round(hours * rate);
   }
